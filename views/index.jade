@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	h1(style='text-align:center;')= title
+	p
+		input#generate(type='button', value='GET SOME DROPLR')
+		span(style='margin-left:10px;')
+			# 
+			span#count(style='font-size:30px') -
+		img#loader(src='/images/loader.gif', style="display:none;")
+	div#droplr(style='width: 90%; border: 3px dashed #ccc; padding: 5px;')
