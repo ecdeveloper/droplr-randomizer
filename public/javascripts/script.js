@@ -12,7 +12,6 @@ $(document).ready(function()
 		{
 			$("#loader").hide();
 			$("#generate").removeAttr("disabled");
-			// alert(data.url);
 			$("#count").html(data.total_iter);
 			$("#droplr").html("<a href='"+ data.url +"'>"+ data.url +"</a><hr>").append(data.html);
 		})
